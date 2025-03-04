@@ -1,4 +1,6 @@
-# DAO-Driven AI Content Creator & Success Simulator
+# Lumina
+
+## DAO-Driven AI Content Creator & Success Simulator
 
 ## Overview
 
