@@ -1,0 +1,85 @@
+# Node & Vite related files
+/frontend/node_modules
+/frontend/dist
+/frontend/.vite
+/frontend/.output
+/frontend/.cache
+/frontend/*.log
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/.eslintcache
+/frontend/.turbo
+/frontend/.DS_Store
+
+# TypeScript build artifacts
+/frontend/**/*.tsbuildinfo
+/frontend/tsconfig.tsbuildinfo
+
+# Environment variables
+.env
+/backend/.env
+
+# Python related files
+/backend/__pycache__/
+/backend/**/*.pyc
+/backend/**/*.pyo
+/backend/**/*.pyd
+/backend/.python-version
+/backend/instance
+/backend/db.sqlite3
+/backend/.venv
+/backend/venv/
+
+# Supabase config (if any, optional)
+.supabase
+
+# Logs & Debug files
+/backend/logs/
+backend/*.log
+/backend/*.out
+/backend/*.pid
+
+# Docker related
+Dockerfile
+/backend/.dockerignore
+/backend/docker-compose.yml
+/backend/docker-compose.override.yml
+/backend/.env.docker
+
+# Editor / IDE settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Prettier & ESLint cache
+/.prettierignore
+/frontend/.eslintcache
+
+# Coverage & test files
+/backend/htmlcov/
+backend/.coverage
+backend/cover/
+backend/coverage/
+backend/pytest_cache/
+/tests/__pycache__/
+/tests/*.pyc
+/tests/*.pyo
+
+# Build artifacts
+/dist/
+/build/
+/target/
+/*.lock
+/backend/requirements.txt.lock
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
